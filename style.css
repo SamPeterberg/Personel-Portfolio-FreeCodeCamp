@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar {
+  background-color: rgb(185, 55, 32);
+  display: flex;
+  gap: 1.5rem;
+  justify-content: end;
+  padding: 0 2rem;
+  color: white;
+  font-size: large;
+  height: 10vh;
+  position: sticky;
+}
+
+/* main started */
+#About{
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#About h1{
+    color: white;
+    margin: 0;
+    font-size: 4rem;
+}
+#About p{
+    margin: 0;
+    color: brown;
+    font-style: italic;
+    font-size: 2rem;
+}
