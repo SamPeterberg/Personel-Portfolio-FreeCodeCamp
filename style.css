@@ -17,24 +17,52 @@ body {
 }
 
 /* main started */
-#About{
-    background-color: rgb(53, 53, 53);
-    text-align: center;
-    display: flex;
-    gap: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+#welcome-section {
+  background-color: rgb(53, 53, 53);
+  text-align: center;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0;
 }
-#About h1{
-    color: white;
-    margin: 0;
-    font-size: 4rem;
+#welcome-section h1 {
+  color: white;
+  margin: 0;
+  font-size: 4rem;
 }
-#About p{
-    margin: 0;
-    color: brown;
-    font-style: italic;
-    font-size: 2rem;
+#welcome-section p {
+  margin: 0;
+  color: brown;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+/* projects */
+#projects {
+  background-color: rgb(25, 50, 104);
+  color: white;
+  height: 90vh;
+  padding: 2rem;
+}
+#projects h1 {
+  display: flex;
+  margin: 2rem auto;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 3rem;
+  width: max-content;
+}
+.project {
+  background-color: rgb(58, 57, 57);
+  width: 30%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.project img{
+  height: 400px;
+  width: 400px;
+
 }
