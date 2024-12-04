@@ -7,13 +7,21 @@ body {
 #navbar {
   background-color: rgb(185, 55, 32);
   display: flex;
-  gap: 1.5rem;
+  gap: 2%;
   justify-content: end;
-  padding: 0 2rem;
+  height: 12vh;
+  position: fixed;
+  /* position: sticky; */
+  width: 100%;
+  /* top: 0; */
+  /* padding: 0 5rem; */
+}
+#navbar a{
+  text-decoration: none;
   color: white;
-  font-size: large;
-  height: 10vh;
-  position: sticky;
+  font-size: 1.5rem;
+  padding: 0 10px; 
+  font-weight: 500;
 }
 
 /* main started */
@@ -25,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   margin: 0;
 }
 #welcome-section h1 {
@@ -44,8 +52,8 @@ body {
 #projects {
   background-color: rgb(25, 50, 104);
   color: white;
-  height: 90vh;
-  padding: 2rem;
+  height: 100vh;
+  padding: 4rem 2rem;
 }
 #projects h1 {
   display: flex;
