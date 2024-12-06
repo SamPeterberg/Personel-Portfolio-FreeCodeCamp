@@ -1,7 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #navbar {
@@ -9,18 +11,17 @@ body {
   display: flex;
   gap: 2%;
   justify-content: end;
-  height: 12vh;
-  position: fixed;
-  /* position: sticky; */
+  height: 10vh;
+  position: sticky;
   width: 100%;
-  /* top: 0; */
+  top: 0;
   /* padding: 0 5rem; */
 }
-#navbar a{
+#navbar a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
-  padding: 0 10px; 
+  padding: 0 10px;
   font-weight: 500;
 }
 
@@ -50,26 +51,42 @@ body {
 
 /* projects */
 #projects {
-  background-color: rgb(25, 50, 104);
+  background-color: rgb(178, 200, 247);
   color: white;
-  height: 100vh;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
+  width: 100%;
 }
 #projects h1 {
-  display: flex;
-  margin: 2rem auto;
+  text-decoration: underline;
   text-align: center;
-  border-bottom: 1px solid white;
   font-size: 3rem;
-  width: max-content;
 }
-.project {
+#project {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.project-tile {
   background-color: rgb(58, 57, 57);
-  width: 30%;
-  padding: 1rem;
-  border-radius: 10px;
+  width: max-content;
+  border-radius: 15px;
+  width: 400px;
 }
-.project img{
+.project img {
   height: 400px;
   width: 400px;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.project p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  padding: 20px 0;
 }
